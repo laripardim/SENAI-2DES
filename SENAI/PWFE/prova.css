@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(231, 231, 231);
+}
+
+.container {
+    background: #ff0000;
+    width: 1250px;
+    height: 1079px;
+    margin-top: 0px;
+    margin-left: 129px;
+    position: absolute;
+}
+
+.menu {
+    background: #FFFFFF;
+    width: 247px;
+    height: 957px;
+    margin-top: 122px;
+    margin-left: 129px;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+}
+
+.menu>p {
+    margin-top: 50px;
+}
+
+.menu>img {
+    width: 20px;
+    height: 20px;
+    margin-left: 150px;
+    margin-top: -37px;
+    cursor: pointer;
+}
+
+.azul {
+    background: #F7F7F7;
+    width: 1250px;
+    height: 122px;
+    margin-top: 0px;
+    margin-left: 129px;
+    position: absolute;
+    filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.25));
+}   
+
+.azul>img {
+    position: absolute;
+    width: 105px;
+    height: 100px;
+    margin-left: 580px;
+    margin-top: 15px;
+}
+
+.verde {
+    background-color: #FFFFFF;
+    width: 1003px;
+    height: 957px;
+    margin-top: 122px;
+    margin-left: 376px;
+    position: absolute;
+}
+
+.cinza {
+    background: #e6e5e5;
+    width: 290px;
+    height: 430px;
+    margin-top: 182px;
+    margin-left: 416px;
+    position: absolute;
+    filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+
+.cinza>img {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+}
+
+.cinza>a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.cinza>h4 {
+    margin-left: 10px;
+}
+
+.cinza>p {
+    margin-left: 10px;
+    font-size: 10px;
+    font-size: 13px;
+    margin-top: -25px;
+}
+
+.um {
+    background: #e6e5e5;
+    width: 290px;
+    height: 430px;
+    margin-top: 182px;
+    margin-left: 729px;
+    position: absolute;
+    filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+
+.um>img {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+}
+
+.um>a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.um>h4 {
+    margin-left: 10px;
+}
+
+.um>p {
+    margin-left: 10px;
+    font-size: 10px;
+    font-size: 13px;
+    margin-top: -25px;
+}
+
+.dois {
+    background: #e6e5e5;
+    width: 290px;
+    height: 430px;
+    margin-top: 182px;
+    margin-left: 1043px;
+    position: absolute;
+    filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+
+.dois>img {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+}
+
+.dois>a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.dois>h4 {
+    margin-left: 10px;
+}
+
+.dois>p {
+    margin-left: 10px;
+    font-size: 10px;
+    font-size: 13px;
+    margin-top: -25px;
+}
+
+.tres {
+    background: #e6e5e5;
+    width: 290px;
+    height: 430px;
+    margin-top: 637px;
+    margin-left: 416px;
+    position: absolute;
+    filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+
+.tres>img {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+}
+
+.tres>a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.tres>h4 {
+    margin-left: 10px;
+}
+
+.tres>p {
+    margin-left: 10px;
+    font-size: 10px;
+    font-size: 13px;
+    margin-top: -25px;
+}
+
+.quatro {
+    background: #e6e5e5;
+    width: 290px;
+    height: 430px;
+    margin-top: 637px;
+    margin-left: 729px;
+    position: absolute;
+    filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+
+.quatro>img {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+}
+
+.quatro>a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.quatro>h4 {
+    margin-left: 10px;
+}
+
+.quatro>p {
+    margin-left: 10px;
+    font-size: 10px;
+    font-size: 13px;
+    margin-top: -25px;
+}
+
+.cinco {
+    background: #e6e5e5;
+    width: 290px;
+    height: 430px;
+    margin-top: 637px;
+    margin-left: 1043px;
+    position: absolute;
+    filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+
+.cinco>img {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+}
+
+.cinco>a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.cinco>h4 {
+    margin-left: 10px;
+}
+
+.cinco>p {
+    margin-left: 10px;
+    font-size: 10px;
+    font-size: 13px;
+    margin-top: -25px;
+}
