@@ -1,0 +1,140 @@
+.FormPrincipal {
+    background-color: rgb(255, 255, 255);
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+
+}
+
+.delivery {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #a7a5c6;
+}
+
+.FormPrincipal>h3{
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.FormPrincipal>input[type=text]{
+    width: 100%;
+    height: 45px;
+    border: 1px solid black;
+    padding-left: 10px;
+    margin: 10px 0;   
+}
+
+.FormPrincipal>input[type=button]{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background-color: cornsilk;
+    color: turquoise;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.FormPrincipal>input [type=submit]:hover{
+    transition: .1s;
+    background-color: rgb(68, 147, 250);
+}
+
+.pPedido{
+    position: absolute;
+    left: 5%;
+    top: 60%;
+    margin: 50px;
+    padding: 10px;
+    background-color: #ffffff;
+    width: 450px;
+    height: 150px;
+}
+
+.FormPrincipal>option {
+    color: violet;
+}
+
+.pedido>input {
+    width: 150px;
+    height: 25px;
+    border: 1px solid pink;
+}
+
+.entrega {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    margin: 50px;
+    padding: 10px;
+    background-color: #ffffff;
+    width: 450px;
+    height: 150px;
+}
+
+.entrega>input  {
+    width: 150px;
+    height: 25px;
+    border: 1px solid green;
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanches</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="delivery">
+    <form class="FormPrincipal"></form>
+    <h3>Faca seu pedido.</h3>
+    <input id="Nome" type="text" name = Nome placeholder="Seu nome...">
+    <input id="Endereço" type="text" name = Endereço placeholder="Seu Endereço...">
+    <select id="Pedido" type="text" name="Pedido" placeholder="Seu pedido...">
+    <option value="">SELECIONE</option>
+        <option value="Coxinha Combo">Coxinha Combo</option>
+        <option value="X-Tudo">X-Tudo</option>
+        <option value="Pastel">Pastel</option>
+        <option value="Dogão Especial">Dogão Especial</option>
+        <option value="Quibe">Quibe</option>
+    </select>
+    <button class="button" onclick="send()">Enviar</button>
+    </form>
+    <div class="pedido">
+        <h3>PEDIDO A CAMINHO!</h3>
+        <table>
+            <form class="FormPedido">
+            <img src="motoboy.png" align="rigth" onclick="JavaScript: sendDelivery();">
+            <input id="Nome_Pedido" type="text" name="Nome_Pedido">
+            <br>
+            <input id="Endereço_Pedido" type="text" name="Endereço_Pedido">
+            <br>
+            <input id="Pedido_Pedido" type="text" name="Pedido_Pedido">
+            <br>
+        </table>
+        </form>
+    </div>
+
+    <div class="entrega">
+        <h3>PEDIDO ENTREGUE!</h3>
+        <form class="FormEntrega">
+            <img src="check.png" align="rigth" onclick="JavaScript: sendCheck();">
+            <input id="Nome_Entrega" type="text" name="Nome_Entrega">
+            <br>
+            <input id="Endereço_Entrega" type="text" name="Endereço_Entrega">
+            <br>
+            <input id="Pedido_Entrega" type="text" name="Pedido_Entrega">
+            <br>
+        </form>
+    </div>
+        <script src="index.js"></script>
+</body>
+</html>
