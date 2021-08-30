@@ -1,0 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.linha {
+    width: 100vw;
+    margin-top: 20px;
+    justify-content: space-around;
+    display: flex;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+}
