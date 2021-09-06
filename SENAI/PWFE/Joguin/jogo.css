@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.linha {
+    width: 100vw;
+    margin-top: 20px;
+    justify-content: space-around;
+    display: flex;
+}
+
+button {
+    width: 200px;
+    height: 300px;
+}
+
+.centro>h1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+select {
+    margin-left: 43.6%;
+}
