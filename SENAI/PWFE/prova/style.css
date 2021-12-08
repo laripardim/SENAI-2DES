@@ -1,0 +1,62 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTblICZGLtvjNXbuy9T9m8u0nh31GSfodyCYXAwXlXE7HArcWCk8DRKhtxtXH0H95UvcB0&usqp=CAU");
+}
+
+.oi {
+    margin-left: 50px;
+    width: 90%;
+    height: 600px;
+    border-radius: 10px;
+    border: solid 1px white;
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-left: 16%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px grey;
+    border-radius: 10px;
+    margin-top: -110px;
+}
+
+#input {
+    margin-top: -500px;
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#inputdois {
+    margin-top: -500px;
+    width: 30%;
+    height: 36px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#btn {
+    margin-top: -500px;
+    background-color: white;
+    border: solid 1px grey;
+    width: 30%;
+    height: 36px;
+    border-radius: 5px;
+}
+
+#link {
+    margin-top: -500px;
+    width: 30%;
+    height: 33px;
+    border-radius: 5px;
+    border: solid 1px grey;
+    margin-left: 10px;
+}
