@@ -2,6 +2,6 @@ npm install @react-navigation/native
 npm install react-native-screens react-native-safe-area-context
 npm install @react-navigation/native-stack
 
-npm install -g expo-cli
 expo init (nome do projeto)
 cd(NOME DO PROJETO)
+npm install -g expo-cli
