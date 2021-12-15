@@ -1,0 +1,1 @@
+source C:/Users/DESENVOLVIMENTO/Desktop/LARISSA/SENAI/PWBE/aula10_node/BD/script.sql
